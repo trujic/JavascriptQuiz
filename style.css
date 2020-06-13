@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #CFD7C7;
+}
+
+.game-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 10vh;
+}
+
+.game-title h1 {
+  padding: 4vh 0px;
+}
+
+.game-section {
+  background-color: #0B2027;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 10vh;
+  box-shadow: 1px 1px 1px 1px;
+  height: 30%;
+}
+
+.game-section h1 {
+  font-size: 30px;
+  color: white;
+}
+.game-section h3 {
+  color:white;
+  font-size: 30px;
+}
+
+.answers {
+  margin-top: 25px;
+}
+
+.answers label {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+.checkbox {
+  margin: auto;
+  width: 4%;
+}
+.answers h1 {
+  padding: 0px 0px;
+  width: 100vh;
+  text-align: left;
+}
+
+#next {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #CFD7C7;
+  outline: none;
+}
+
+#next:hover {
+  cursor: pointer;
+  padding: 15px 30px;
+  transition: 0.5s;
+}
+
+.progress-line {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+#line {
+  color: black;
+}
+
+progress[value] {
+  width: 250px;
+  height: 20px;
+}
+
+.end-screen{
+  background-color: #F6F1D1;
+  position: absolute;
+  top: 45vh;
+  left: 35%;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
